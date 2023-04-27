@@ -1,6 +1,6 @@
 import {useSelector, useDispatch} from 'react-redux'
 import { decrement, increment, selectValue } from '@/features/counter/counterSlice'
-import { Button } from "@material-tailwind/react";
+import { Button } from "@material-tailwind/react"
 
 export default function Home() {
   const count = useSelector(selectValue)
